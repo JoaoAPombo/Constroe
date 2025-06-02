@@ -18,7 +18,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Constroe" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-cover bg-center`}
         style={{ backgroundImage: "url('/imgs/fotoNoite.jpeg')" }}
