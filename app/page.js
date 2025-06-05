@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { projectImages } from "@/utils/imageLoader";
+import { projectImages } from "./utils/imageLoader";
 
 export default function Home() {
   const scrollToSection = (id) => {
