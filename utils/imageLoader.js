@@ -15,3 +15,4 @@ export const projectImages = [
   { id: 'termoeletrica', title: 'Termoelétrica', path: 'imgs/fototermoeletrica.jpeg' },
   { id: 'cimento', title: 'Fábrica de Cimento', path: 'imgs/fotocimento.jpeg' },
 ];
+
