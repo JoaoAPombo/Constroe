@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Top Bar */}
-      <div className="w-full h-12 bg-white py-5 px-8 flex justify-between items-center fixed top-0 shadow-lg z-50 rounded-2xl">
+      <div className="w-full h-12 bg-white py-5 px-8 flex justify-between items-center fixed top-0 shadow-lg z-50 rounded-b-2xl">
         <div className="flex items-center gap-3">
           <h1
             className="text-2xl font-bold text-gray-800 hover:text-gray-600 transition-colors duration-300 cursor-pointer"
