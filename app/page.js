@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import { projectImages } from "@/utils/imageLoader";
 
 export default function Home() {
   const scrollToSection = (id) => {
@@ -75,185 +77,21 @@ export default function Home() {
 
           <div className="mt-12 w-full px-4 mb-24">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Metro Card - Example of fixed structure */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotometro.jpeg')] bg-cover bg-center opacity-80 
-                               group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">Metrô</h3>
+              {projectImages.map((project) => (
+                <div key={project.id} className="relative h-48 overflow-hidden group">
+                  <Image
+                    src={`/${project.path}`}
+                    alt={project.title}
+                    fill
+                    className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
+                  />
+                  <div className="relative z-10 h-full flex flex-col justify-between">
+                    <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
+                      <h3 className="text-xl font-bold text-gray-800">{project.title}</h3>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              {/* Porto Card - Example of fixed structure */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoportos.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">Portos</h3>
-                  </div>
-                </div>
-              </div>
-
-              {/* Aeroporto Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoaeroporto.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Aeroportos
-                    </h3>
-                  </div>
-                </div>
-              </div>
-
-              {/* Barragens Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotobarragem.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Barragens
-                    </h3>
-                  </div>
-                </div>
-              </div>
-
-              {/* Construcao Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoconstrucao.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Construção Industrial/Civil
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* Dique Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotodique.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Dique Seco
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/*Rodovia Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotorodovia.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Rodovias
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* Hidreletrica Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotohidreletrica.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Hidrelétricas
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* Tunel Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fototunel.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">Túneis</h3>
-                  </div>
-                </div>
-              </div>
-              {/* Adutora Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoadutora.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Adutoras
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* ETA Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoeta.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Estação de Tratamento de Água
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* ETE Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoete.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Estação de Tratamento de Esgotos
-                    </h3>
-                  </div>
-                </div>
-              </div>
-
-              {/* Redes Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotoredes.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Interceptores e Redes Domiciliares de Esgoto
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* TermoEletrica Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fototermoeletrica.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Termoelétrica
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              {/* Cimento Card */}
-              <div className="relative h-48 overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('/imgs/fotocimento.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                    <h3 className="text-xl font-bold text-gray-800">
-                      Fábrica de Cimento
-                    </h3>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
