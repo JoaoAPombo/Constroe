@@ -77,10 +77,8 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Metro Card - Example of fixed structure */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotometro.jpeg')] bg-cover bg-center opacity-80 
-                               group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotometro.jpeg')] bg-cover bg-center opacity-80 
+                               group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">Metrô</h3>
@@ -90,10 +88,8 @@ export default function Home() {
 
               {/* Porto Card - Example of fixed structure */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/FotoPortos.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoportos.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">Portos</h3>
@@ -103,10 +99,8 @@ export default function Home() {
 
               {/* Aeroporto Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/FotoAeroporto.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoaeroporto.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -118,10 +112,8 @@ export default function Home() {
 
               {/* Barragens Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/FotoBarragem.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotobarragem.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -133,10 +125,8 @@ export default function Home() {
 
               {/* Construcao Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoConstrucao.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoconstrucao.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -147,10 +137,8 @@ export default function Home() {
               </div>
               {/* Dique Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoDique.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotodique.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -161,10 +149,8 @@ export default function Home() {
               </div>
               {/*Rodovia Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoRodovia.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotorodovia.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -175,10 +161,8 @@ export default function Home() {
               </div>
               {/* Hidreletrica Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/FotoHidreletrica.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotohidreletrica.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -189,10 +173,8 @@ export default function Home() {
               </div>
               {/* Tunel Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/FotoTunel.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fototunel.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">Túneis</h3>
@@ -201,10 +183,8 @@ export default function Home() {
               </div>
               {/* Adutora Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/FotoAdutora.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoadutora.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -215,10 +195,8 @@ export default function Home() {
               </div>
               {/* ETA Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoETA.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoeta.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -229,10 +207,8 @@ export default function Home() {
               </div>
               {/* ETE Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoETE.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoete.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -244,10 +220,8 @@ export default function Home() {
 
               {/* Redes Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoRedes.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotoredes.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -258,10 +232,8 @@ export default function Home() {
               </div>
               {/* TermoEletrica Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoTermoeletrica.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fototermoeletrica.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
@@ -272,10 +244,8 @@ export default function Home() {
               </div>
               {/* Cimento Card */}
               <div className="relative h-48 overflow-hidden group">
-                <div
-                  className="absolute inset-0 bg-[url('/imgs/fotoCimento.jpeg')] bg-cover bg-center opacity-80 
-                         group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 ease-in-out"
-                ></div>
+                <div className="absolute inset-0 bg-[url('/imgs/fotocimento.jpeg')] bg-cover bg-center opacity-80 
+                         group-hover:opacity-100 group_hover:scale-110 transition-all duration-500 ease-in-out"></div>
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
                     <h3 className="text-xl font-bold text-gray-800">
