@@ -1,6 +1,6 @@
 export const projectImages = [
-  { id: 'metro', title: 'Metrô', path: 'public/imgs/fotometro.jpeg' },
-  { id: 'porto', title: 'Portos', path: '/imgs/fotoportos.jpeg' },
+  { id: 'metro', title: 'Metrô', path: '/imgs/fotoMetro.jpeg' },
+  { id: 'porto', title: 'Portos', path: '/imgs/fotoPortos.jpeg' },
   { id: 'aeroporto', title: 'Aeroportos', path: '/imgs/fotoaeroporto.jpeg' },
   { id: 'barragem', title: 'Barragens', path: '/imgs/fotobarragem.jpeg' },
   { id: 'construcao', title: 'Construção Industrial/Civil', path: '/imgs/fotoconstrucao.jpeg' },
