@@ -80,10 +80,12 @@ export default function Home() {
               {projectImages.map((project) => (
                 <div key={project.id} className="relative h-48 overflow-hidden group">
                   <Image
-                    src={`/${project.path}`}
+                    src={project.path}
                     alt={project.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
+                    priority={project.id === 'metro' || project.id === 'porto'}
                   />
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
