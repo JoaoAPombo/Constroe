@@ -2,7 +2,7 @@ export const projectImages = [
   { id: 'metro', title: 'Metrô', path: '/imgs/fotometro.jpeg' },
   { id: 'porto', title: 'Portos', path: '/imgs/fotoportos.jpeg' },
   { id: 'aeroporto', title: 'Aeroportos', path: '/imgs/fotoaeroporto.jpeg' },
-  { id: 'barragem', title: 'Barragens', path: '/imgs/fotonarragem.jpeg' },
+  { id: 'barragem', title: 'Barragens', path: '/imgs/fotobarragem.jpeg' },
   { id: 'construcao', title: 'Construção Industrial/Civil', path: '/imgs/fotoconstrucao.jpeg' },
   { id: 'dique', title: 'Dique Seco', path: '/imgs/FotoDique.jpeg' },
   { id: 'rodovia', title: 'Rodovias', path: '/imgs/FotoRodovia.jpeg' },
