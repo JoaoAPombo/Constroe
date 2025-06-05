@@ -8,7 +8,7 @@ export const projectImages = [
   { id: 'rodovia', title: 'Rodovias', path: '/imgs/FotoRodovia.jpeg' },
   { id: 'hidreletrica', title: 'Hidrelétricas', path: '/imgs/FotoHidreletrica.jpeg' },
   { id: 'tunel', title: 'Túneis', path: '/imgs/FotoTunel.jpeg' },
-  { id: 'adutora', title: 'Adutoras', path: '/imgs/FotoAdutora.jpeg' },
+  { id: 'adutora', title: 'Adutoras', path: '/imgs/fotoadutora.jpeg' },
   { id: 'eta', title: 'Estação de Tratamento de Água', path: '/imgs/FotoETA.jpeg' },
   { id: 'ete', title: 'Estação de Tratamento de Esgotos', path: '/imgs/FotoETE.jpeg' },
   { id: 'redes', title: 'Interceptores e Redes Domiciliares de Esgoto', path: '/imgs/FotoRedes.jpeg' },
