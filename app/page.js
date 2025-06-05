@@ -83,9 +83,9 @@ export default function Home() {
                     src={project.path}
                     alt={project.title}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    quality={100}
+                    unoptimized
                     className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
-                    priority={project.id === 'metro' || project.id === 'porto'}
                   />
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
