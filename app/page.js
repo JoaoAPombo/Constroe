@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { projectImages } from "./utils/imageLoader";
 
 export default function Home() {
@@ -79,13 +78,10 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projectImages.map((project) => (
                 <div key={project.id} className="relative h-48 overflow-hidden group">
-                  <Image
+                  <img
                     src={project.path}
                     alt={project.title}
-                    fill
-                    quality={100}
-                    unoptimized
-                    className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
+                    className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
                   />
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
