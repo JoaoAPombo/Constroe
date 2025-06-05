@@ -5,11 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
-  trailingSlash: true,
-  assetPrefix: './',
-  publicRuntimeConfig: {
-    staticFolder: '/imgs',
-  },
+  assetPrefix: '/',
 }
 
 module.exports = nextConfig
