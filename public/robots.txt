@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://constroe.com
+
+# Sitemaps
+Sitemap: https://constroe.com/sitemap.xml
