@@ -57,8 +57,7 @@ export default function Home() {
           CONSTROE ENGENHARIA
         </h1>
         <p className="mt-4 text-2xl font-semibold drop-shadow-lg">
-          Excelência em construção de projetos de engenharia civil e
-          construção.
+          Excelência em construção de projetos de engenharia civil e construção.
         </p>
       </div>
 
@@ -77,7 +76,10 @@ export default function Home() {
           <div className="mt-12 w-full px-4 mb-24">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projectImages.map((project) => (
-                <div key={project.id} className="relative h-48 overflow-hidden group">
+                <div
+                  key={project.id}
+                  className="relative h-48 overflow-hidden group"
+                >
                   <img
                     src={project.path}
                     alt={project.title}
@@ -85,7 +87,9 @@ export default function Home() {
                   />
                   <div className="relative z-10 h-full flex flex-col justify-between">
                     <div className="h-16 p-4 bg-white/80 backdrop-blur-sm group-hover:opacity-0 transition-all duration-300">
-                      <h3 className="text-xl font-bold text-gray-800">{project.title}</h3>
+                      <h3 className="text-xl font-bold text-gray-800">
+                        {project.title}
+                      </h3>
                     </div>
                   </div>
                 </div>
@@ -134,11 +138,11 @@ export default function Home() {
 
             <div className="bg-gray-50 hover:bg-gray-100 shadow-lg rounded-xl p-8 transition-all duration-300 transform hover:-translate-y-1">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                Elaboração de Obra e Controle de Qualidade
+                Execução de obras e Controle de Qualidade
               </h3>
               <p className="text-gray-600">
-                Desenvolvemos projetos de obra com controle rigoroso de
-                qualidade em todas as etapas.
+                Execução de obras com controle rigoroso de qualidade em todas as
+                etapas.
               </p>
             </div>
 
@@ -168,12 +172,8 @@ export default function Home() {
                 Excelência em projetos de engenharia civil e construção.
                 Transformando ideias em realidade desde 2017.
               </p>
-              <p className="text-white text-lg ">
-                Eng Roberto Pombo
-              </p>
-              <p className="text-white text-lg">
-                Crea: 38737 D/MG
-              </p>
+              <p className="text-white text-lg ">Eng Roberto Pombo</p>
+              <p className="text-white text-lg">Crea: 38737 D/MG</p>
             </div>
 
             {/* Contact Info */}
@@ -208,6 +208,11 @@ export default function Home() {
                     Rua Dr Antônio Alves Sobrinho n⁰1958
                     <br />
                     LAMBARI - MG
+                  </span>
+                  <span className="ml-4 text-lg">
+                    Rua Jornalista clemente comandulli n⁰ 10
+                    <br />
+                    CURITIBA - PR
                   </span>
                 </div>
               </div>
