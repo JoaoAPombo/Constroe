@@ -57,7 +57,7 @@ export default function Home() {
           CONSTROE ENGENHARIA
         </h1>
         <p className="mt-4 text-2xl font-semibold drop-shadow-lg">
-          Excelência em construção de projetos de engenharia civil e construção.
+          Excelência em construção de projetos de engenharia civil e gerenciamente de obras.
         </p>
       </div>
 
